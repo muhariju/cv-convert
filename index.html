@@ -466,7 +466,7 @@ position: ETL Developer`;
 					sertifikatHtml += ''
 						+ '  <div class="w-full flex">'
 						+ '    <div class="font-bold me-2">' + sertifikat[i].program + '</div>';
-					if (sertifikat[i].no != "") {
+					if (sertifikat[i].no != "" && sertifikat[i].no != "-") {
 						sertifikatHtml += '    <div class="ms-2">No. ' + sertifikat[i].no + '</div>';
 					}
 					sertifikatHtml += '    <div class="ms-auto font-bold">' + sertifikat[i].periode + '</div>'
